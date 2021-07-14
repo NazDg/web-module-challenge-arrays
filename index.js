@@ -183,7 +183,7 @@ Use the filterByWord function below to do the following:
 function filterByWord(array, flavor){
     const newArray = [];
     for (let i = 0; i < array.length ; i++) {
-        if (array.includes(flavor)) {
+        if (array[i].includes(flavor)) {
             newArray.push(array[i]);
         }
     }
